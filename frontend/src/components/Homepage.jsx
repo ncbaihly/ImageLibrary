@@ -94,7 +94,7 @@ function Homepage() {
                             />
                         </Box>
                     </Modal>
-                    <Grid size={2} onClick={() => handleOpen(i)} ><img classname="thumb" src={obj.blob} alt={i} /></Grid>
+                    <Grid size={2} onClick={() => handleOpen(i)} ><img className="thumb" src={obj.blob} alt={i} /></Grid>
                 </div>
             )}
             </Grid> 

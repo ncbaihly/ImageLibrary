@@ -37,7 +37,6 @@ app.add_middleware(
 async def root():
     return {"message": "Image Library Backend Up"}
 
-# TODO Get all photos for displaying
 
 @app.get("/images/")
 async def get_images():
