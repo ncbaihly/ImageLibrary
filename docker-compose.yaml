@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      dockerfile: Frontend.Dockerfile
+    container_name: frontend_a
+    ports:
+      - '3000:3000'
+  backend:
+    build: 
+      dockerfile: Backend.Dockerfile
+    container_name: backend_b
+    ports:
+      - '8000:8000'
+    stdin_open: true
+    tty: true
+
