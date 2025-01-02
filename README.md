@@ -1,5 +1,4 @@
 # ImageLibrary
-Assessment project for Picky
 
 ## How to run
 Simply run `docker compose up` in the root project directory. The projects can
